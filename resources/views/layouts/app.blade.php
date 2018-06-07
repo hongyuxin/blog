@@ -22,7 +22,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="nav has-shadow">
+        <nav class="navbar has-shadow">
             <div class="container">
                 <div class="navbar-menu">
                     <div class="navbar-start">
@@ -35,9 +35,9 @@
                         </div>
         
                         <div class="navbar-end">
-                            @if (!Auth::guest())
-                                <a href="#" class="navbar-item">Login</a>
-                                <a href="#" class="navbar-item">Join the community</a>
+                            @if (Auth::guest())
+                                <a href="{{route('login')}}" class="navbar-item">Login</a>
+                                <a href="{{route('register')}}" class="navbar-item">Join the community</a>
                             @else
                                 <div class="navbar-item has-dropdown is-hoverable">
                                     <a href="#" class="navbar-link">Hello World</a>

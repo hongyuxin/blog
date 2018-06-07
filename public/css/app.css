@@ -17542,6 +17542,14 @@ label.panel-block:hover {
   background: rgba(255, 56, 96, 0.05);
 }
 
+.is-muted {
+  color: #b5b5b5 !important;
+}
+
+a.is-muted:hover {
+  color: #7a7a7a !important;
+}
+
 .m-t-5 {
   margin-top: 5px !important;
 }
@@ -17924,6 +17932,15 @@ label.panel-block:hover {
 
 .p-r-100 {
   padding-right: 100px !important;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  background: whitesmoke;
 }
 
 .navbar-laravel {
