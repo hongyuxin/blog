@@ -17934,6 +17934,14 @@ a.is-muted:hover {
   padding-right: 100px !important;
 }
 
+.side-menu {
+  position: fixed;
+  height: 100vh;
+  width: 200px;
+  background-color: white;
+  overflow-y: scroll;
+}
+
 html {
   height: 100%;
 }
