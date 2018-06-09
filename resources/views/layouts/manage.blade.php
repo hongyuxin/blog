@@ -21,13 +21,13 @@
 <body>
     @include('_includes.nav.main')
     @include('_includes.nav.manage')
-    <div id="app">
+    <div id="app" class="management-area">
         <main class="py-4">
             @yield('content')
         </main>
     </div>
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ asset('js/app.js') }}"></script>
     @yield('scripts')
 </body>
 </html>
