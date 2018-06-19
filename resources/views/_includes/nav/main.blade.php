@@ -5,9 +5,9 @@
                     <a class="navbar-item" href="{{route('home')}}">
                         <img src="{{asset('images/logo.png')}}" alt="Blog Logo">
                     </a>
-                    <a href="#" class="navbar-item is-hidden-mobile m-l-10">Learn</a>
-                    <a href="#" class="navbar-item is-hidden-mobile">Discuss</a>
-                    <a href="#" class="navbar-item is-hidden-mobile">Share</a>
+                    <a href="#" class="navbar-item is-tab m-l-10">Learn</a>
+                    <a href="#" class="navbar-item is-tab">Discuss</a>
+                    <a href="#" class="navbar-item is-tab">Share</a>
                 </div>
 
                 <div class="navbar-end">
